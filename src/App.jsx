@@ -8,6 +8,7 @@ import Counter from "./components/concepts/States/Counter";
 import ReactComponentsGuide from "./components/concepts/compTypes/ReactComponentGuide";
 import TodoTable from "./components/concepts/Hooks/TodoTable";
 import ReactUseEffectGuide from "./components/concepts/Hooks/ReactUseEffectGuide";
+import ReactListsKeysDemo from "./components/concepts/ListKeys/ReactListsKeysDemo";
 export default function App(){
   return(
     <div className="app-container">
@@ -31,8 +32,12 @@ export default function App(){
        <div className="component-block">
          <TodoTable/>
       </div>
-      <div>
+      <div className="component-block">
         <ReactUseEffectGuide/>
+      </div>
+
+      <div className="component-block">
+          <ReactListsKeysDemo/>
       </div>
     </div>
   )
